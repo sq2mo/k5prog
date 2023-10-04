@@ -1030,7 +1030,7 @@ int main(int argc,char **argv)
 
 
 			if (flash_max_block_addr>UVK5_MAX_FLASH_SIZE)  {
-				fprintf(stderr,"flash length 0x%x is greater than max flash size 0x%s\n",flash_max_block_addr,UVK5_MAX_FLASH_SIZE);
+				fprintf(stderr,"flash length 0x%x is greater than max flash size 0x%x\n",flash_max_block_addr,UVK5_MAX_FLASH_SIZE);
 				exit(1);
 			}
 
